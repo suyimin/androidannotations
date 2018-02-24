@@ -27,5 +27,5 @@ def AAVersion = "4.4.0"
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     annotationProcessor "org.androidannotations:androidannotations:$AAVersion"
-    implementation "org.androidannotations:androidannotations-api:$AAVersion"
+    //implementation "org.androidannotations:androidannotations-api:$AAVersion"
 }
